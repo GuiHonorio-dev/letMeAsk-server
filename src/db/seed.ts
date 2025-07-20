@@ -12,6 +12,12 @@ await seed(db, schema).refine((f) => {
 				description: f.loremIpsum(),
 			},
 		},
+		questions: {
+			count: 20,
+			columns: {
+				question: f.country()
+			}
+		}
 	};
 });
 await sql.end();
