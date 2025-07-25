@@ -15,6 +15,13 @@
       "when": 1753047132662,
       "tag": "0001_hot_sue_storm",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1753466589258,
+      "tag": "0002_thick_lord_hawal",
+      "breakpoints": true
     }
   ]
 }
